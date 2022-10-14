@@ -36,7 +36,7 @@ const Home = () => {
                 <div className="left-side">
                     <input onChange={(e) => setSearch(e.target.value)}
                         type="text" className='search-input' />
-                    <button className='search-btn'>Searc</button>
+                    <button className='search-btn'>Search</button>
                     <div className="players-container">
                         <Players players={players} cart={cart} setCart={setCart}></Players>
                     </div>
